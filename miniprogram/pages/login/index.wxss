@@ -1,0 +1,10 @@
+/* miniprogram/pages/login/index.wxss */
+.head{width: 100%;height:350rpx;display: flex;justify-content: center;align-items: flex-end;position: relative;z-index: 2;}
+.head::before{position: absolute;display: block;content: "";height: 200rpx;width: 100%;background: #6864f9;z-index: -1;top:0rpx;}
+.head:after{position: absolute;display: block;content: "";height: 300rpx;width: 100%;border-radius: 0 0 100% 100%;background: #6864f9;z-index: -1;bottom:0rpx;}
+.avatar{height:170rpx;width:170rpx;background:#fff;border-radius: 50%;overflow: hidden;margin-bottom: 100rpx;}
+
+.login-area{width:calc(100% - 40rpx);padding:20rpx;}
+.login-area>.count-area{border-bottom:1px solid #f1f1f1;padding:30rpx 10rpx;font-size:28rpx;}
+.login-area>.login-button{border-radius: 50rpx;height: 100rpx;line-height: 100rpx;border:none;background: #6864f9;color:#fff;margin-top:80rpx;font-size: 28rpx;}
+.login-area>.sign-up{display: flex;justify-content: space-between;color:#6864f9;font-size:24rpx; padding:40rpx 20rpx;font-weight: bold;}

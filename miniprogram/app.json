@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "一号码头",
+    "navigationBarTextStyle": "black"
+  },
+  "could": true,
+  "tabBar": {
+    "selectedColor": "#ff7802",
+    "color": "#d2d2d2",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/shouye.png",
+        "selectedIconPath": "images/tabBar/shouye1.png"
+      },
+      {
+        "pagePath": "pages/userConsole/userConsole",
+        "text": "订单",
+        "iconPath": "images/tabBar/dingdan.png",
+        "selectedIconPath": "images/tabBar/dingdan1.png"
+      },
+      {
+        "pagePath": "pages/databaseGuide/databaseGuide",
+        "text": "我的",
+        "iconPath": "images/tabBar/wode.png",
+        "selectedIconPath": "images/tabBar/wode1.png"
+      }
+    ]
+  }
+}

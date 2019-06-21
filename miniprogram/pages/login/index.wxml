@@ -1,0 +1,25 @@
+<!--miniprogram/pages/login/index.wxml-->
+<view class="head">
+    <view class="avatar">
+        <open-data type="userAvatarUrl" ></open-data>
+    </view>
+</view>
+<!--acount area-->
+<view class="login-area">
+    <view class="acount count-area">
+        <input type="text" placeholder="请输入登录账号" />
+    </view>
+    <view class="password count-area">
+        <input type="text" placeholder="请输入登录密码" />
+    </view>
+    <button type="submit" class="login-button">登录</button>
+    <view class="sign-up">
+        <view>注册</view>
+        <view>忘记密码</view>
+    </view>
+</view>
+
+<!--fast-login-->
+
+
+  
